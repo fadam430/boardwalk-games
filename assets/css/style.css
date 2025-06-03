@@ -61,17 +61,12 @@ h2 {
 }
 /* game library  */
 
-#fav-games > p {
+#fav-games  p , #new-games  p {
     margin: 1em;
 }
-#new-games > p {
-    margin: 1em;
-}
-#new-games .card {
-    border:none;
-    margin-bottom: 1.5rem;
-}
-#fav-games .card {
+
+
+#new-games .card, #fav-games .card {
     border:none;
     margin-bottom: 1.5rem;
 }
