@@ -56,10 +56,25 @@ h2 {
     color: var(--highlight-color);
     background-color: transparent;
 }
-#service .card {
+#service  .card {
     margin-bottom: 1.5rem;
 }
+/* game library  */
 
+#fav-games > p {
+    margin: 1em;
+}
+#new-games > p {
+    margin: 1em;
+}
+#new-games .card {
+    border:none;
+    margin-bottom: 1.5rem;
+}
+#fav-games .card {
+    border:none;
+    margin-bottom: 1.5rem;
+}
 
 /*
 .container, .row {
@@ -78,6 +93,9 @@ h2 {
     #service .card-body {
         min-height: 191px;
     }
+    #fav-games .card-body {
+        min-height: 311px;
+    }
 }
 /* Large device tablet and 992px and up  */
 @media screen and (min-width:992px){
@@ -92,11 +110,17 @@ h2 {
     #service .card-body {
         min-height: 220px;
     }
+    #fav-games .card-body {
+        min-height: 338px;
+    }
 }
 /* XXLarge device tablet and 1400px and up  */
 @media screen and (min-width:1400px){
     /* Make all service card same height for consistency*/
     #service .card-body {
         min-height: 195px;
+    }
+    #new-games .card-body {
+        min-height: 291px;
     }
 }
