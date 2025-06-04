@@ -38,6 +38,8 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+
 /* button */
 
 .costume-button-filled {
@@ -59,6 +61,22 @@ h2 {
     background-color: var(--highlight-color);
     color:white;
 }
+/* Discount section and Events */
+
+#discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+#events .table  {
+    font-size: 0.7rem;
+        
+    }
 
 /* Navbar */
 #navbar {
@@ -120,15 +138,7 @@ h2 {
     background-color: transparent;
 }
 
-/*
-.container, .row {
-    border: 2px solid black;
-}
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-    */
+
 /* media queries */
 
 /* Medium device tablet and 768px and up  */
@@ -137,9 +147,15 @@ h2 {
     #service .card-body {
         min-height: 191px;
     }
+    /* Make all favorite card responsive*/
     #fav-games .card-body {
         min-height: 311px;
     }
+    /* for mobile screen make a discount line bit bigger*/
+    #discount {
+        font-size: 1rem;
+    }
+    
 }
 /* Large device tablet and 992px and up  */
 @media screen and (min-width:992px){
@@ -154,6 +170,7 @@ h2 {
     #service .card-body {
         min-height: 220px;
     }
+    /* Make all favorite card responsive*/
     #fav-games .card-body {
         min-height: 338px;
     }
@@ -164,6 +181,7 @@ h2 {
     #service .card-body {
         min-height: 195px;
     }
+    /* Make all new games  card responsive*/
     #new-games .card-body {
         min-height: 291px;
     }
