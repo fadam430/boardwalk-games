@@ -35,9 +35,9 @@ h2 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem; /* prevent top overlap heading section*/
 }
 
 
