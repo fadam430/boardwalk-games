@@ -15,6 +15,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 57.14px; /* this padding fix a top gap between navbar and page */
 }
 
 h1,
