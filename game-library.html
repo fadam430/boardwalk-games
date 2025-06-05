@@ -40,6 +40,9 @@
           <a class="nav-link" href="index.html#service">Service</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="index.html#events">Events</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/game-library.html">Games</a>
         </li>
         <li class="nav-item">
@@ -233,23 +236,23 @@
     <section id="reservation-form" class="container section">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
-                <h2>Reserve a game</h2>
+                <h2 class="text-center">Reserve a game</h2>
                 <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.</p>
                 <form action="success.html" method="GET">
                     <div class="row">
-                        <div class="col-12 col-lg-6 mb-3">
+                        <div class="col-12 col-lg-4 mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input class="form-control" id="name" name="name" type="text" required>
                         </div>
-                        <div class="col-12 col-lg-6 mb-3">
+                        <div class="col-12 col-lg-4 mb-3">
                             <label for="phone" class="form-label">Phone number</label>
                             <input class="form-control" id="phone" name="phone" type="number" required>
                         </div>
-                        <div class="col-12 col-lg-6 mb-3">
+                        <div class="col-12 col-lg-4 mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input class="form-control" id="email" name="email" type="email" required>
                         </div>
-                        <div class="col-12 col-lg-6 mb-3">
+                        <div class="col-12 col-lg-8 mb-3">
                             <label for="game-type" class="form-label">Select Games</label>
                             <select id="game-type" class="form-select" name="game-type" required>
                                 <option value="" selected>Select</option>
@@ -263,13 +266,15 @@
                                 <option value="cluedo">Cluedo</option>
                             </select>
                         </div>
-                        <div class="col-12 mb-3">
-                            <label for="date" class="form-label">Message</label>
+                        <div class="col-12 col-lg-4 mb-3">
+                            <label for="date" class="form-label">Select Date</label>
                             <input type="date" class="form-control" rows="6" id="date" name="date" required></input>
                         </div>
                     </div>
-
-                    <button type="submit" class="btn costume-button-outlined justify-content-start">Submit</button>
+                    <div class="col-12 col-xl-12 mt-2">
+                        <button type="submit" class="btn costume-button-outlined">Submit</button>
+                    </div>
+                    
                 </form>
             </div>
         </div>
